@@ -37,7 +37,7 @@ Download and install USBNinja [driver](https://usbninja.com/drivers_tools/USBnin
 
 Start Arduino IDE and select __File__ -> __Preferences__ menu.
 
-Add USBNinja Boards Manager URL (copy of the version used in this readme can be found [here](https://github.com/4d4c/USBNinjasrc/branch/master/install_files/package_USBNinja_index.json)):
+Add USBNinja Boards Manager URL (copy of the version used in this readme can be found [here](https://github.com/4d4c/USBNinja/blob/master/install_files/package_USBNinja_index.json)):
 
 ```text
 http://usbninja.com/arduino/package_USBNinja_index.json
@@ -59,7 +59,7 @@ By default USBNinja cable has "Ninja" as its Bluetooth device name (this name is
 
 ###### Changing name and password of USBNinja cable
 
-In Arduino IDE go to __File__ -> __Examples__ -> __NinjaBLESetup__ -> __NinjaBLESetup__. In `setup()` function set name and password you want to use (file example can be found [here](https://github.com/4d4c/USBNinjasrc/branch/master/payload_examples/cable_setup/cable_setup.ino)):
+In Arduino IDE go to __File__ -> __Examples__ -> __NinjaBLESetup__ -> __NinjaBLESetup__. In `setup()` function set name and password you want to use (file example can be found [here](https://github.com/4d4c/USBNinja/blob/master/payload_examples/cable_setup/cable_setup.ino)):
 
 ```c
 SetBLE("John's iPhone", "4379");
@@ -276,7 +276,7 @@ void payloadB() {
 }
 ```
 
-Full code file can be found [here](https://github.com/4d4c/USBNinjasrc/branch/master/payload_examples/bluetooth_powershell_command/bluetooth_powershell_command.ino) (to save memory we can rewrite both functions to call a generic function with download URL as an argument).
+Full code file can be found [here](https://github.com/4d4c/USBNinja/blob/master/payload_examples/bluetooth_powershell_command/bluetooth_powershell_command.ino) (to save memory we can rewrite both functions to call a generic function with download URL as an argument).
 
 ----
 
@@ -343,7 +343,7 @@ void loop() {
 
 Please note, that during testing USBNinja started executing payload as soon as it finished uploading, so try not to spawn any beacons on your machine.
 
-Full code file can be found [here](https://github.com/4d4c/USBNinjasrc/branch/master/payload_examples/powershell_command/powershell_command.ino).
+Full code file can be found [here](https://github.com/4d4c/USBNinja/blob/master/payload_examples/powershell_command/powershell_command.ino).
 
 ---
 
@@ -395,4 +395,4 @@ void loop() {
 
 Don't forget to remove the ring after two seconds when uploading code or it can trigger payload on your machine.
 
-Full code file can be found [here](https://github.com/4d4c/USBNinjasrc/branch/master/payload_examples/ring_powershell_command/ring_powershell_command.ino).
+Full code file can be found [here](https://github.com/4d4c/USBNinja/blob/master/payload_examples/ring_powershell_command/ring_powershell_command.ino).
