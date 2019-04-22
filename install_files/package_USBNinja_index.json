@@ -1,0 +1,101 @@
+{
+   "packages":[
+      {
+         "name":"USBNinja",
+         "maintainer":"RRG",
+         "websiteURL":"https://usbninja.com",
+         "email":"support@USBNinja.com",
+         "help":{
+            "online":"https://usbninja.com/board"
+         },
+         "platforms":[
+         {
+          "name": "USB Ninja",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "USBNinja",
+          "url": "https://usbninja.com/arduino/USBNinja-avr-1.0.1.zip",
+          "archiveFileName": "USBNinja-avr-1.0.1.zip",
+          "checksum": "SHA-256:EF76D0B0D31E5888B24938950E270314326A4BD469A57AA1BD5DB5DCA507D9D7",
+          "size": "182108",
+          "help": {
+            "online": "https://usbninja.com/issues"
+          },
+          "boards": [
+            {
+              "name": "USB Ninja cable (BLE+Hall sensor)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "USBNinja",
+              "name": "micronucleus-usbninja",
+              "version": "1.0.1"
+            }
+          ]
+        },
+        {
+          "name": "USB Ninja",
+          "architecture": "avr",
+          "version": "1.0.2",
+          "category": "USBNinja",
+          "url": "https://usbninja.com/arduino/USBNinja-avr-1.0.2.zip",
+          "archiveFileName": "USBNinja-avr-1.0.2.zip",
+          "checksum": "SHA-256:C74B6D1E2DAE587AD99D28B929ABBDB28CDBFCB7982F0BF021191543DB92005B",
+          "size": "197732",
+          "help": {
+            "online": "https://usbninja.com/issues"
+          },
+          "boards": [
+            {
+              "name": "USB Ninja cable (BLE+Hall sensor)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "USBNinja",
+              "name": "micronucleus-usbninja",
+              "version": "1.0.1"
+            }
+          ]
+        }
+         ],
+         "tools":[
+            {
+             "name": "micronucleus-usbninja",
+             "version": "1.0.1",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "micronucleus-usbninja-1.0.1-osx.tar.gz",
+                 "url": "https://usbninja.com/arduino/micronucleus-usbninja-1.0.1-osx.tar.gz",
+                 "checksum": "SHA-256:2E25C0F0D16750D4ED8C5104630CAD2388D098713D3304B6CB70383248DABF80",
+                 "size": "46132"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "micronucleus-usbninja-1.0.1-win.zip",
+                 "url": "https://usbninja.com/arduino/micronucleus-usbninja-1.0.1-win.zip",
+                 "checksum": "SHA-256:96DACC64F7C6A48EBFC0346E678113F11AEADEC8840A0C0CF3D383AE3B60D3DA",
+                 "size": "27091"
+               },
+               {
+                 "host": "i686-linux-gnu",
+                 "archiveFileName": "micronucleus-usbninja-1.0.1-linux32.tar.gz",
+                 "url": "https://usbninja.com/arduino/micronucleus-usbninja-1.0.1-linux32.tar.gz",
+                 "checksum": "SHA-256:A55FF36DB5F9ADD6FFA0474390790770F4B6D57E34679743CC5224C1EBF71512",
+                 "size": "18690"
+               },
+               {
+                 "host": "x86_64-linux-gnu",
+                 "archiveFileName": "micronucleus-usbninja-1.0.1-linux64.tar.gz",
+                 "url": "https://usbninja.com/arduino/micronucleus-usbninja-1.0.1-linux64.tar.gz",
+                 "checksum": "SHA-256:8293D29E867FA437BBB9AE3CF00E7EB828C5171444ECCD5A423077E4DD79B87B",
+                 "size": "19602"
+               }
+             ]
+           }
+        ]
+      }
+   ]
+}
