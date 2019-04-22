@@ -2,11 +2,11 @@
 
 USBNinja is an information security and penetration testing device that looks and functions just like a regular USB cable (both power and data) until a wireless remote control triggers execution of a pre-configured payload. [Official website](https://usbninja.com/).
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/cable_usb.jpg" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/cable_usb.jpg" />
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/cable_lightning.jpg" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/cable_lightning.jpg" />
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/ring_remote.jpg" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/ring_remote.jpg" />
 
 ##### Speed
 
@@ -43,15 +43,15 @@ Add USBNinja Boards Manager URL (copy of the version used in this readme can be 
 http://usbninja.com/arduino/package_USBNinja_index.json
 ```
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/arduino_ide_preferences_url.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/arduino_ide_preferences_url.png" />
 
 Select __Tools__ -> __Board__ -> __Board Manager__. In __Board Manager__ menu select __Contributed__ from dropdown. Select __USB Ninja by RRG__ package and click __Install__.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/arduino_ide_boards_manager.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/arduino_ide_boards_manager.png" />
 
 Close __Board Manager__. From __Tools__ -> __Board__ menu select __USB Ninja cable__.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/arduino_ide_boards_manager_usbninja.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/arduino_ide_boards_manager_usbninja.png" />
 
 ##### Changing Bluetooth name and password of USBNinja
 
@@ -107,13 +107,13 @@ To change the name and the password of USBNinja remote control you need to downl
 
 Select the serial port of the remote control and click __OPEN__. Set the name and password that you're using for USBNinja cable and press __SET BLE NAME__ and __SET BLE PASSWORD__. After name and password were set press __CLOSE__ button. If the tool is not detecting the remote control, try installing drivers from the zip archive.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/usbninja_transmitter.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/usbninja_transmitter.png" />
 
 ##### Changing USBNinja keyboard device name
 
 By default USBNinja has "USB Ninja Keyboard" as a name.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/windows_usb_ninja.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/windows_usb_ninja.png" />
 
 To change this name you need to change USB driver configurations located in `C:\Users\User\Documents\ArduinoData\packages\USBNinja\hardware\avr\1.0.2\libraries\NinjaKeyboard\include\usbconfig.h`
 
@@ -150,7 +150,7 @@ Change this value to something generic :
 
 After changing these values you need to re-upload your payload to USBNinja cable for changes to take effect.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/windows_iphone.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/windows_iphone.png" />
 
 -----
 
@@ -288,11 +288,11 @@ Download APK file from [here](https://usbninja.com/drivers_tools/USBNinja.apk). 
 
 Install APK file on Android phone. If you changed default password for USBNinja cable change it in __password__ menu (top right). After scanning pick the device.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/device_search.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/device_search.png" />
 
 In here you will be able to execute commands the same way as with the remote control.
 
-<img src ="https://github.com/4d4c/USBNinjaraw/branch/master/images/device_action.png" />
+<img src ="https://raw.githubusercontent.com/4d4c/USBNinja/master/images/device_action.png" />
 
 ---
 
