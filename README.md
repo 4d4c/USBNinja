@@ -31,7 +31,7 @@ Download and install Arduino [software](https://www.arduino.cc/en/Main/Software)
 
 ##### Installing USBNinja driver
 
-Download and install USBNinja [driver](https://usbninja.com/drivers_tools/USBninja_BOOT_driver.zip). Version used in this readme can be found [here](https://github.com/4d4c/USBNinjaraw/branch/master/install_files/USBninja_BOOT_driver.exe).
+Download and install USBNinja [driver](https://usbninja.com/drivers_tools/USBninja_BOOT_driver.zip). Version used in this readme can be found [here](https://github.com/4d4c/USBNinja/raw/master/install_files/USBninja_BOOT_driver.exe).
 
 ##### Setting up Arduino IDE for USBNinja
 
@@ -103,7 +103,7 @@ running: 100% complete
 
 ###### Changing name and password of USBNinja remote control
 
-To change the name and the password of USBNinja remote control you need to download [USBNinjaTransmiterToolsV1.0.zip](https://usbninja.com/drivers_tools/USBNinjaTransmiterToolsV1.0.zip). The version used in this readme can be found [here](https://github.com/4d4c/USBNinjaraw/branch/master/install_files/USBNinjaTransmiterToolsV1.0.zip). Unzip the archive, start the tool and connect remote control to your machine with the micro USB cable.
+To change the name and the password of USBNinja remote control you need to download [USBNinjaTransmiterToolsV1.0.zip](https://usbninja.com/drivers_tools/USBNinjaTransmiterToolsV1.0.zip). The version used in this readme can be found [here](https://github.com/4d4c/USBNinja/raw/master/install_files/USBNinjaTransmiterToolsV1.0.zip). Unzip the archive, start the tool and connect remote control to your machine with the micro USB cable.
 
 Select the serial port of the remote control and click __OPEN__. Set the name and password that you're using for USBNinja cable and press __SET BLE NAME__ and __SET BLE PASSWORD__. After name and password were set press __CLOSE__ button. If the tool is not detecting the remote control, try installing drivers from the zip archive.
 
@@ -284,7 +284,7 @@ Full code file can be found [here](https://github.com/4d4c/USBNinja/blob/master/
 
 Payload from [Cobalt Strike payload (remote control)](#cobalt-strike-payload-remote-control) can be re-used. Range of the Android App is the same as of the remote control (tested on Samsung S5).
 
-Download APK file from [here](https://usbninja.com/drivers_tools/USBNinja.apk). Version used in this readme can be found [here](https://github.com/4d4c/USBNinjaraw/branch/master/install_files/USBNinja.apk).
+Download APK file from [here](https://usbninja.com/drivers_tools/USBNinja.apk). Version used in this readme can be found [here](https://github.com/4d4c/USBNinja/raw/master/install_files/USBNinja.apk).
 
 Install APK file on Android phone. If you changed default password for USBNinja cable change it in __password__ menu (top right). After scanning pick the device.
 
